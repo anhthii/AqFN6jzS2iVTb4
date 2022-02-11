@@ -1,4 +1,4 @@
-# Pixcap's assessment
+# Coding assessment
 
 ## Preface
 Hi there, I'm Thi, thank you for reading this README. I had fun doing this coding this assessment and thank you for giving such a good problem to the candidates.
