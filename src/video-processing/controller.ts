@@ -16,10 +16,9 @@ import { StatusCodes } from "http-status-codes";
 @Route("ffmpeg")
 export class VideoProccessorController extends Controller {
   /**
-   * Retrieves the details of an existing user.
-   * Supply the unique user ID from either and receive corresponding user details.
-   * @param userId The user's identifier
-   * @param name Provide a username to display
+   * Extract an image frame at a given timestamp of a given video
+   * @param url of video that has mp4 or webm format
+   * @param timestamp in seconds that the user want to extract the frame at
    */
   @Get("image")
   public async extractFrameInBase64(
